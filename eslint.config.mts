@@ -71,7 +71,7 @@ export default defineConfig(
       "sort-imports": ["warn", { ignoreDeclarationSort: true }],
       "symbol-description": "error",
       yoda: ["warn", "never", { exceptRange: true }],
-
+      "no-useless-escape": ["error", { allowRegexCharacters: ["i"] }],
       // - typescript-eslint rules
       "no-unused-vars": "off",
 

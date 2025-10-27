@@ -10,5 +10,6 @@ if (SettingValues.get("console"))
         if (c?.startsWith?.("%c") || c?.startsWith?.("color:")) return c;
         if (SettingValues.get("type") === "uwu") return Utils.uwuify(c);
         if (SettingValues.get("type") === "owo") return Utils.owoify(c);
+        return c;
       }),
     );

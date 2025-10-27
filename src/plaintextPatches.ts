@@ -1,9 +1,9 @@
-import Types from "@types";
+import type Types from "@types";
 
 const replacements = [
   {
     match: /return{\$\$typeof:\i,type:(\i).+?props:(\i)/,
-    replace: (suffix: string, type: string, props: string) =>
+    replace: (suffix: string, _type: string, props: string) =>
       `${props}.children = ($exports?._questionMySanity?.(${props}.children, ${props}) ?? ${props}.children);${suffix}`,
   },
 ];

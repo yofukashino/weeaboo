@@ -20,7 +20,7 @@ export const UwU = new Uwuifier({
 
 export const start = (): void => {
   Settings.registerSettings();
-  Injections.applyInjections();
+  void Injections.applyInjections();
 };
 
 export const stop = (): void => {

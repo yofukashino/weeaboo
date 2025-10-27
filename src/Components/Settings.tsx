@@ -1,5 +1,5 @@
 import { util } from "replugged";
-import { Select, Stack, Switch } from "replugged/components";
+import { Notice, Select, Stack, Switch } from "replugged/components";
 import { PluginLogger, SettingValues } from "@this";
 import { DefaultSettings } from "@consts";
 
@@ -32,6 +32,11 @@ export const Settings = (): React.ReactElement => {
         description="Do you want youw consoWe wogs to be aww cute ‘n fwuffy too~? >w< 💻✨ Tuwrn those sewious debuggies into adowabwe giggwies~!! (っ˘ω˘ς) 💖 nya~"
         {...util.useSetting(SettingValues, "type", DefaultSettings.console)}
       />
+      <Notice messageType={Notice.HelpMessageTypes.WARNING}>
+        {
+          "It is wecommended to westawt fow each setting to take effect, nya~ 💖✨ OwO even when tuwning on the pwugin~ >w< 🐾"
+        }
+      </Notice>
     </Stack>
   );
 };
