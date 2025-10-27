@@ -1,0 +1,21 @@
+{
+  "id": "dev.yofukashino.weeaboo",
+  "name": "Weeaboo~ chan~ (⁄⁄>////<⁄⁄) 💖✨",
+  "description": "M-makes evewy text on youw scween supew dupew cute and fwuffy~!! ✨ Twansfowms wowds into adowabwe UwU o-or chaotwic OwO speechies!! >w< 💖 nya~",
+  "image": "https://i.imgur.com/YJHbIsk.png",
+  "source": "https://github.com/yofukashino/Weeaboo",
+  "author": {
+    "name": "Nanakusa",
+    "discordID": "1121961711080050780",
+    "github": "yofukashino"
+  },
+  "version": "1.0 .0",
+  "updater": {
+    "type": "store",
+    "id": "dev.yofukashino.weeaboo"
+  },
+  "license": "MIT",
+  "type": "replugged-plugin",
+  "renderer": "src/index.ts",
+  "plaintextPatches": "src/plaintextPatches.ts"
+}
